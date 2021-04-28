@@ -16,34 +16,35 @@ export default {}
 
 <style lang="scss">
   .contacts {
-    position: absolute;
-    top: 60px;
-    right: 80px;
+    // position: absolute;
+    // top: 3rem;
+    // right: 6rem;
     display: flex;
-    gap: 20px;
+    justify-content: flex-end;
+    gap: 1.2rem;
 
     &__text {
       position: relative;
       color: #CD1212;
-      font-size: 42px;
+      font-size: 1rem;
 
       &::after {
         content: "";
         position: absolute;
-        bottom: 20px;
+        bottom: 0.9rem;
         left: 0;
-        width: 290px;
+        width: 7rem;
         height: 1px;
         background-color: #CD1212;
       }
     }
 
     &__button {
-      width: 90px;
-      height: 90px;
+      width: 2.5rem;
+      height: 2.5rem;
 
       color: #CD1212;
-      font-size: 40px;
+      font-size: 1.5rem;
 
       border: none;
       background: rgba(196, 196, 196, 0.13);
@@ -51,8 +52,8 @@ export default {}
       }
 
     &__underline {
-      width: 1700px;
-      height: 70px;
+      width: 49.5rem;
+      height: 1.7rem;
       border-bottom: 1px solid rgba(200, 200, 200, 0.46);;
     }
   }
